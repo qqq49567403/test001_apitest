@@ -1,0 +1,31 @@
+接口自动化测试
+
+框架说明
+    布局
+        功能模块             common
+        配置文件模块/用例     conf
+        日志模块             log
+        测试报告模块          report
+        测试用例模块          testcases
+        测试数据模块          testdatas
+
+    原理
+
+    详细说明
+        功能模块
+            handle_db   连接数据库
+                pymsql，建立连接，建立游标，定义查询结果（查询结果条数，查询一条结果，查询所有结果）
+                    扩展执行语句，执行存储过程
+            handle_requests 发送请求
+                requests，对请求头、地址、数据进行处理，发送不同类型的请求
+            handle_excel
+            handle_logger
+            handle_conf
+
+        逻辑说明
+
+
+    改进
+
+    持续集成
+
